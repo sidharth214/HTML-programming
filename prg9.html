@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>MOUSE OVER</title>
+</head>
+<body>
+<h1 id="text">HELLO</h1>
+<img src="/home/ksb/Desktop/sidh/HTML/images.jpeg"
+onmouseover="onmouse()"
+onmouseout ="outmouse()" 
+id="image">
+<script>
+function onmouse() {
+document.getElementById('text').innerText='welcome to my page';
+document.getElementById('image').src='/home/ksb/hyy.gif';
+}
+function outmouse() {
+document.getElementById('text').innerText='HelloWorld';
+document.getElementById('image').src='/home/ksb/Desktop/sidh/HTML/images.jpeg';
+}
+</script>
+</body>
+</html>
